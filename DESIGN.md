@@ -57,7 +57,9 @@ tone: "clean, academic, modern, trustworthy"
 - Aspect ratio: 16:9
 - Recommended size: 1792 × 1024 or similar landscape
 - Safe margin: 5% from all edges
-- Slide count indicator: optional, top-right or bottom-right
+- Slide count indicator: optional, bottom-right only
+- Never place slide numbers, page numbers, or progress indicators in the top-right corner.
+- The top-right corner must remain empty whitespace unless it is part of the main slide content.
 - Background: pure white (`#FFFFFF`) or very light blue-white
 
 ---
@@ -209,8 +211,16 @@ components:
   slide_number:
     background: navy
     text_color: white
-    position: top-right
+    position: bottom-right only
+    forbidden_position: top-right
 ```
+
+### Slide Number Rules
+
+- **右上にはページ数・スライド番号・進行表示を絶対に配置しない。**
+- ページ数を入れる場合は、必ず右下に小さく控えめに配置する。
+- 右上に `1/10`、`Slide 1`、`p.1`、丸数字などの番号表現を置くことは禁止する。
+- 画像生成AIへの指示では、必ず `No slide number or page number in the top-right corner.` を含める。
 
 ---
 
@@ -262,10 +272,10 @@ Text (verbatim, must be accurate):
 「{line_4}」
 
 Constraints:
-Japanese typography must be clean and readable. Use only the listed text. 16:9 slide. No watermark. No fake logos. No photorealistic people.
+Japanese typography must be clean and readable. Use only the listed text. 16:9 slide. No watermark. No fake logos. No photorealistic people. No slide number or page number in the top-right corner.
 
 Avoid:
-misspelled Japanese, tiny text, dense paragraphs, dark background, excessive decoration.
+misspelled Japanese, tiny text, dense paragraphs, dark background, excessive decoration, top-right slide numbers, top-right page numbers.
 ```
 
 ### Example Prompt (研究モデルスライドの場合)
@@ -293,10 +303,10 @@ Text (verbatim, must be accurate):
 `「AI音声は“売り込まれている感じ”を弱め、信頼を通じて購買意向に影響する」`
 
 Constraints:
-Japanese text must be clean and readable. 16:9 slide. No watermark. Minimal slide. Use only the listed Japanese text.
+Japanese text must be clean and readable. 16:9 slide. No watermark. Minimal slide. Use only the listed Japanese text. No slide number or page number in the top-right corner.
 
 Avoid:
-misspelled Japanese, extra labels, dense text, dark background.
+misspelled Japanese, extra labels, dense text, dark background, top-right slide numbers, top-right page numbers.
 ```
 
 ---
@@ -358,6 +368,7 @@ slides:
 - [ ] テキスト量が多すぎず、箇条書きやカードに適切に整理されているか
 - [ ] アイコンがシンプルで、スライドの文脈（音声、SNS、信頼等）に合致しているか
 - [ ] 実在するブランド（TikTok、Instagramなど）のロゴが勝手に使われていないか
+- [ ] 右上にページ数・スライド番号・進行表示が入っていないか
 - [ ] 10枚のスライド全体を並べた時に、一貫したデザインシステムが感じられるか
 
 ### Final Design Principle (最終デザイン原則)
