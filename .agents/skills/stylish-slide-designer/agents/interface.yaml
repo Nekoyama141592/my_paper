@@ -1,0 +1,4 @@
+interface:
+  display_name: "Stylish Slide Designer"
+  short_description: "Create polished, design-led presentation slides"
+  default_prompt: "Use $stylish-slide-designer to turn source material into a polished presentation with strong typography, layout, and visual direction."
