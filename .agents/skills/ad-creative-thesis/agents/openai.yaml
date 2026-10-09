@@ -1,0 +1,4 @@
+interface:
+  display_name: "広告クリエイティブ卒論"
+  short_description: "広告表現研究の実験設計、因子分析、検証、卒論執筆を一貫支援"
+  default_prompt: "Use $ad-creative-thesis to design and write an empirical advertising-creative thesis with factor analysis in Study 2."
