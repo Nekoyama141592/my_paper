@@ -2,12 +2,12 @@
 
 対象ファイル:
 
-- `20260620_BRAND_IDEA_BY_CLAUDE.md`
-- `20260620_BRAND_IDEA_BY_GEMINI.md`
-- `20260620_BRAND_IDEA_BY_GPT.md`
-- `20260620_IDEA_BY_CLAUDE.md`
-- `20260620_IDEA_BY_GEMINI.md`
-- `20260620_IDEA_BY_GPT.md`
+- [Claudeによるブランド観点のアイデア](../A_ブランド観点アイデア/20260620_A_BRAND_IDEA_BY_CLAUDE.md)
+- [Geminiによるブランド観点のアイデア](../A_ブランド観点アイデア/20260620_A_BRAND_IDEA_BY_GEMINI.md)
+- [GPTによるブランド観点のアイデア](../A_ブランド観点アイデア/20260620_A_BRAND_IDEA_BY_GPT.md)
+- [Claudeによる自由アイデア](../B_自由アイデア/20260620_B_IDEA_BY_CLAUDE.md)
+- [Geminiによる自由アイデア](../B_自由アイデア/20260620_B_IDEA_BY_GEMINI.md)
+- [GPTによる自由アイデア](../B_自由アイデア/20260620_B_IDEA_BY_GPT.md)
 
 ---
 
@@ -207,4 +207,3 @@ Z世代向けSNS広告において、合成音声広告は人の声の広告よ�
 卒論タイトル案:
 
 **SNS上の口コミ風広告における合成音声の効果: 商業的意図の知覚、広告信頼性、購買意向に着目して**
-

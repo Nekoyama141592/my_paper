@@ -167,11 +167,11 @@
 
 > [!NOTE]
 > 本ファイルは以下6ファイルのアイデアを横断的に比較・評価して作成しました。
-> - `20260620_BRAND_IDEA_BY_CLAUDE.md`（30案）
-> - `20260620_BRAND_IDEA_BY_GEMINI.md`（30案）
-> - `20260620_BRAND_IDEA_BY_GPT.md`（30案）
-> - `20260620_IDEA_BY_CLAUDE.md`（20案）
-> - `20260620_IDEA_BY_GEMINI.md`（20案）
-> - `20260620_IDEA_BY_GPT.md`（20案）
+> - [Claudeによるブランド観点のアイデア](../A_ブランド観点アイデア/20260620_A_BRAND_IDEA_BY_CLAUDE.md)（30案）
+> - [Geminiによるブランド観点のアイデア](../A_ブランド観点アイデア/20260620_A_BRAND_IDEA_BY_GEMINI.md)（30案）
+> - [GPTによるブランド観点のアイデア](../A_ブランド観点アイデア/20260620_A_BRAND_IDEA_BY_GPT.md)（30案）
+> - [Claudeによる自由アイデア](../B_自由アイデア/20260620_B_IDEA_BY_CLAUDE.md)（20案）
+> - [Geminiによる自由アイデア](../B_自由アイデア/20260620_B_IDEA_BY_GEMINI.md)（20案）
+> - [GPTによる自由アイデア](../B_自由アイデア/20260620_B_IDEA_BY_GPT.md)（20案）
 > 
 > 選定日: 2026年6月20日
