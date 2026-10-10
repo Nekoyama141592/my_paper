@@ -23,6 +23,18 @@ Choose one primary outcome. Common outcomes include ad attitude, brand attitude,
 
 ## 2. Study sequence
 
+### Default blueprint
+
+Use the following structure unless the user has already fixed a different defensible design.
+
+| Stage | Main question | Default measurement | Default analysis |
+|---|---|---|---|
+| Study 1 | Does the focal expression change the primary outcome? | One manipulated element, one stimulus per respondent, one 2-3 item primary outcome, essential checks, optional free response | t test or equivalent regression |
+| Study 2 item generation | What impressions do viewers actually report? | Study 1 free responses and/or depth interviews; initial pool of about 25-30 statements reduced to 15-20 | Qualitative consolidation and content review |
+| Study 2 factor discovery | What psychological factors organize those impressions? | The 15-20 impression items plus the primary outcome measured separately | EFA on impression items only, reliability, then regression predicting the outcome |
+
+Do not place the primary outcome items inside the Study 2 factor analysis. Do not add a moderator, multiple mediators, or multiple competing outcomes to Study 1 unless the theory or user explicitly requires them.
+
 ### Study 1: establish the effect
 
 Use a between-subject experiment by default when repeated exposure would reveal the manipulation or create demand effects. Use within-subject designs only when carryover and comparison effects are acceptable.
@@ -33,23 +45,28 @@ Typical structures:
 - Three conditions: focal expression, low-intensity alternative, and ordinary control.
 - Factorial design: two theoretically meaningful factors when the hypothesis concerns fit or interaction.
 
-Measure the manipulation check separately from the primary outcome. A successful manipulation check does not prove the outcome hypothesis.
+The local default is a two-condition comparison. Measure one primary outcome with 2-3 coherent items. Measure the manipulation check and only the stimulus-quality properties needed to rule out obvious confounds after the outcome. Add one free-response prompt when it will supply Study 2 item-generation material. A successful manipulation check does not prove the outcome hypothesis.
+
+Keep Study 1 short. Do not add familiarity moderators, serial mediators, purchase intention, sharing intention, and several platform-use controls merely because they are available. Add a construct only when it answers the stated RQ or protects interpretation.
 
 ### Study 2: extract and test the psychological factors
 
 Study 2 should include factor analysis as a standard stage. Use the following sequence:
 
-1. Collect qualitative descriptions of why participants reacted to the focal advertising expression, using free responses or depth interviews.
-2. Consolidate the responses into clear, non-duplicative impression items. Add literature-derived items when theory requires them.
-3. Administer the items with the primary outcome to a sample suitable for factor analysis.
-4. Run exploratory factor analysis for newly generated impression items.
-5. Name the factors from the shared meaning of their retained items, then check internal consistency.
-6. Use factor scores or defensible scale means as predictors of the primary outcome in regression.
-7. If theory predicts an indirect path, test mediation after the measurement structure is established.
+1. Collect qualitative descriptions of why participants reacted to the focal advertising expression, using the Study 1 free response and/or depth interviews.
+2. Create an initial pool of roughly 25-30 statements, then consolidate it to 15-20 clear, non-duplicative impression items. Add literature-derived items only when theory requires coverage missing from the qualitative data.
+3. Review the items for one idea per statement, readable wording, content coverage, and unnecessary positive-negative duplicates. Use a supervisor, peer review, or cognitive interviews when feasible.
+4. Administer the 15-20 impression items with the same primary outcome to a sample suitable for factor analysis.
+5. Run exploratory factor analysis on the impression items only. Do not include the primary outcome, manipulation check, attention check, or demographic items in this EFA.
+6. Name the factors from the shared meaning of their retained items, then check internal consistency.
+7. Use factor scores or defensible scale means as predictors of the primary outcome in regression.
+8. Add mediation only if theory, measurement, and temporal ordering justify it; regression is the default.
 
 Study 2 may also add a boundary condition, replication, or corrected stimulus, but these should not replace the factor-analysis stage. When established scales are used, verify the expected measurement structure with CFA when feasible. If CFA is outside the available method or sample, conduct and label an exploratory factor-structure check rather than assuming the scale behaves identically in the new context.
 
 Avoid treating same-sample factor discovery and outcome regression as strong independent confirmation. Prefer a split sample or a second sample when feasible. When this is not feasible, report the entire sequence as exploratory and reserve stronger confirmation for Study 3 or future research.
+
+If Study 1 does not show a condition effect, do not claim that Study 2 discovered the mechanism behind an effect. Report Study 2 as an exploratory analysis of impression structure and associations with the outcome.
 
 ### Study 3 or additional verification
 
@@ -101,7 +118,7 @@ Before collection, specify the primary hypothesis, outcome, exclusions, target s
 ### Factor-analysis procedure
 
 - Ensure that every proposed factor has multiple interpretable items; do not design a one-item factor.
-- Plan sample size from both the number of items and expected loading strength. As a planning heuristic, aim for at least 5-10 usable responses per item and preferably at least 150 observations, then judge adequacy using KMO, communalities, and loading stability rather than the ratio alone.
+- Plan sample size from both the 15-20 impression items and expected loading strength. As a planning heuristic, aim for at least 5-10 usable responses per item and preferably at least 150 observations, then judge adequacy using KMO, communalities, and loading stability rather than the ratio alone.
 - Check factorability with the correlation matrix, KMO, and Bartlett's test when available.
 - Use a common-factor extraction method such as maximum likelihood or principal-axis factoring. Do not substitute principal component analysis without explaining that it answers a different question.
 - Use an oblique rotation such as promax or oblimin because advertising perceptions are normally correlated.
@@ -135,8 +152,10 @@ Before approving a design, answer:
 2. Does each hypothesis follow from named theory and cited evidence?
 3. Could a non-focal stimulus difference explain the predicted effect?
 4. Is the primary outcome identifiable before seeing results?
-5. Does the analysis directly test the interaction, mediation, or contrast claimed?
-6. Does Study 2 include a defensible factor-analysis plan and enough multi-item data to execute it?
-7. Are factor count, rotation, item removal, naming, and reliability reported transparently?
-8. Is each follow-up confirmatory, exploratory, or corrective—and labeled accordingly?
-9. Would the conclusion remain accurate if a key hypothesis is null?
+5. Does Study 1 remain a simple test of one focal contrast and one primary outcome?
+6. Were the Study 2 impression items generated from qualitative evidence and reduced to roughly 15-20 without collapsing content coverage?
+7. Is the primary outcome kept outside the Study 2 EFA?
+8. Does Study 2 include a defensible factor-analysis plan and enough multi-item data to execute it?
+9. Are factor count, rotation, item removal, naming, and reliability reported transparently?
+10. Is the regression following factor discovery labeled exploratory when it uses the same sample?
+11. Would the conclusion remain accurate if Study 1 is null?

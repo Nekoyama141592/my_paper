@@ -1,6 +1,6 @@
 ---
 name: ad-creative-thesis
-description: Plan, design, analyze, and write empirical theses about advertising expression and creative, including copy, audio, visuals, endorsers, social media, AI-generated elements, and campaign formats. Use for topic selection, literature-grounded research questions, hypotheses, stimulus and survey design, Study 1/2 with factor analysis, optional follow-ups, analysis planning, chapter drafting, or methodological review. Do not use for ordinary ad production without a research objective.
+description: Plan, design, analyze, and write empirical theses about advertising expression and creative. Defaults to a simple Study 1 comparison and a separate Study 2 that develops 15-20 impression items, runs exploratory factor analysis, and relates the extracted factors to one primary outcome. Use for topic selection, RQs, hypotheses, stimuli, questionnaires, analysis plans, chapter drafting, or methodological review. Do not use for ordinary ad production without a research objective.
 ---
 
 # Advertising Creative Thesis
@@ -23,6 +23,17 @@ Express the study in one compact model:
 
 Add a moderator or boundary condition only when theory needs it. Identify the comparison condition, target population, product/context, and unit of analysis. If these cannot yet be fixed, offer a small set of materially different options rather than pretending the design is final.
 
+## Default two-study architecture
+
+Unless the user has settled another defensible design, use this local thesis pattern:
+
+1. **Study 1: simple effect comparison.** Manipulate one advertising element, show each respondent one condition, and compare one primary consumer outcome. Keep the main outcome to 2-3 coherent items, place manipulation and essential stimulus-quality checks separately, and optionally collect one free response for Study 2 item generation. Do not add a moderator, multiple mediators, or several secondary outcomes by default.
+2. **Study 2: psychological factor discovery.** Use Study 1 free responses and/or interviews to create an initial item pool, consolidate it to 15-20 non-duplicative impression items, administer those items with the same primary outcome, run exploratory factor analysis on the impression items only, check reliability, and regress the primary outcome on the extracted factors.
+
+Keep the Study 1 outcome items outside the Study 2 factor analysis. Treat Study 2 factor discovery and same-sample regression as exploratory. If Study 1 has no condition effect, describe Study 2 as an exploration of impression structure and outcome associations, not as an explanation of an established effect.
+
+When one paid survey budget must support both studies, prefer free or institutional recruitment for the short Study 1 and reserve the paid panel for Study 2, where factor analysis needs a larger stable sample. Confirm the actual sample, platform, and budget rather than assuming this allocation always applies.
+
 ## Build evidence before claims
 
 - Ground the research gap and hypotheses in primary literature or sources supplied by the user. Search current literature when the task requires facts, scales, or novelty claims that may have changed.
@@ -32,9 +43,10 @@ Add a moderator or boundary condition only when theory needs it. Identify the co
 
 ## Design studies proportionally
 
-- Use Study 1 to test the focal causal contrast with stimuli that differ only on the intended advertising element.
-- Use Study 2 to identify and test the psychological factors behind the Study 1 effect. The default sequence is qualitative item generation, exploratory factor analysis, factor interpretation and reliability checks, then regression or mediation using the extracted factors.
+- Use Study 1 to test the focal causal contrast with stimuli that differ only on the intended advertising element. Prefer a two-condition between-subject comparison unless the theory requires more conditions.
+- Use Study 2 to identify and test the psychological factors associated with the focal expression. The default sequence is qualitative item generation, reduction to 15-20 impression items, exploratory factor analysis, factor interpretation and reliability checks, then regression using the extracted factors.
 - Include a factor-analysis stage in the research plan. When impression items are newly generated, use exploratory factor analysis. When established scales are used, verify their factor structure with confirmatory factor analysis when feasible, or with a clearly labeled exploratory structure check when CFA is not feasible. If the available sample or items cannot support factor analysis, flag this as a design problem and propose a remedy rather than silently omitting the analysis.
+- Do not use mediation as the default Study 2 analysis. Add it only when the temporal order, measurement structure, and theory justify an indirect-effect claim.
 - Add Study 3 or an extra verification only when it resolves a real question: a boundary condition, rival explanation, mediation chain, robustness check, failed manipulation, or stimulus confound. More studies are not inherently better.
 - Pretest manipulations and obvious confounds before the main survey. Plan sample size, exclusions, primary outcomes, and analysis before collecting data whenever possible.
 - Prefer validated multi-item measures. Translate or adapt scales transparently and preserve the original construct meaning.

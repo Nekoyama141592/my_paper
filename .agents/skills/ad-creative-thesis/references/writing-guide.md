@@ -22,10 +22,12 @@ Adapt headings to the institution's rules. A common empirical structure is:
 
 1. Introduction: phenomenon, problem, objective, contribution, and RQs.
 2. Literature and theory: construct definitions, established relationships, unresolved gap, and conceptual model.
-3. Study 1: hypotheses, pretests, method, results, and restrained discussion.
-4. Study 2: qualitative factor discovery, factor analysis, and regression or mediation explaining the Study 1 effect.
+3. Study 1: one focal manipulation, one primary outcome measured with 2-3 items, essential checks, a simple condition comparison, and an optional free response for Study 2.
+4. Study 2: qualitative item generation, reduction to 15-20 impression items, EFA on those impression items only, factor naming and reliability, then exploratory regression predicting the same primary outcome.
 5. Optional additional verification: only when it resolves a specific remaining question.
 6. General discussion: integrated findings, theoretical and managerial implications, limitations, and future research.
+
+Do not describe Study 2 as explaining the Study 1 effect when Study 1 did not establish a condition difference. In that case, describe Study 2 as mapping impression structure and outcome associations.
 
 For projects following the local 20th-cohort precedent, extracted main-text lengths ranged roughly from 13,400 to 20,500 Japanese characters, with a mean near 17,800. Treat this as descriptive context only. Official requirements and the needs of the argument take priority; do not pad the manuscript to hit a precedent.
 
@@ -63,7 +65,8 @@ Include:
 - AI tool and editing disclosure when synthetic material was used;
 - procedure in exposure order;
 - exact construct sources, adaptations, item counts, response scales, and reliability;
-- for factor analysis, item-generation sources, sample adequacy, extraction and rotation, factor-retention logic, item-removal rules, final loadings, factor correlations, and factor-score construction;
+- for Study 1, the one primary outcome, its 2-3 items, manipulation and quality checks, and any free-response prompt used for Study 2;
+- for Study 2, qualitative item-generation sources, how the initial pool was reduced to 15-20 impression items, sample adequacy, extraction and rotation, factor-retention logic, item-removal rules, final loadings, factor correlations, reliability, and factor-score construction;
 - primary and secondary outcomes;
 - analysis plan and software.
 
@@ -71,16 +74,20 @@ Put complete stimuli and questionnaires in an appendix when appropriate, while r
 
 ## 6. Report results without overclaiming
 
-Use this order:
+Report Study 1 first:
 
 1. Data quality, exclusions, and manipulation checks.
-2. Descriptive statistics and reliability.
-3. Factorability checks such as KMO and Bartlett's test.
-4. Factor-retention evidence, extraction and rotation methods, item removals, and the final loading table.
-5. Factor naming and reliability.
-6. Regression or mediation using the extracted factors.
-7. Effect sizes, uncertainty, and hypothesis decisions matching the exact predictions.
-8. Clearly labeled exploratory or follow-up analyses.
+2. Primary-outcome reliability and descriptive statistics.
+3. The condition comparison, effect size, uncertainty, and exact RQ or hypothesis decision.
+
+Then report Study 2:
+
+1. Item-generation and reduction process.
+2. Data quality and factorability checks such as KMO and Bartlett's test.
+3. Factor-retention evidence, extraction and rotation methods, item removals, and the final loading table.
+4. Factor naming and reliability.
+5. Exploratory regression using the extracted factors to predict the separately measured primary outcome.
+6. Clearly labeled exploratory conclusions and any follow-up analyses.
 
 Statistical significance alone does not establish practical importance. A null direct effect with a claimed indirect effect requires careful design and wording. Do not use causal verbs for observational associations or same-time self-report mediation unless the design justifies them.
 
