@@ -1,70 +1,49 @@
 ---
 name: ad-creative-thesis
-description: Plan, design, analyze, and write empirical theses about advertising expression and creative. Defaults to a simple Study 1 comparison and a separate Study 2 that develops 15-20 impression items, runs exploratory factor analysis, and relates the extracted factors to one primary outcome. Use for topic selection, RQs, hypotheses, stimuli, questionnaires, analysis plans, chapter drafting, or methodological review. Do not use for ordinary ad production without a research objective.
+description: 広告表現・広告クリエイティブを対象とする実証的な卒業論文について、テーマ選定、研究課題、仮説、刺激、質問票、分析計画、本文執筆・推敲を支援する。先輩の卒論を参考に、研究1の条件比較と研究2の印象項目の因子分析を基本案とする。研究目的のない通常の広告制作には使用しない。
 ---
 
-# Advertising Creative Thesis
+# 広告表現・広告クリエイティブの卒業論文作成
 
-Build a defensible empirical marketing thesis in which a clearly manipulated advertising expression is connected to a consumer response through theory and evidence.
+広告表現の違いが消費者の反応とどのように結びつくかを、理論・調査・分析に基づいて説明できる卒業論文にする。説明、提案、本文、見出しは日本語で作成する。文献の原題、著者名、識別子、分析記号は必要な原表記を保つ。
 
-## Route the task
+## 依頼に応じて読む資料
 
-- For topic selection, RQs, hypotheses, variables, stimuli, pretests, survey design, analysis plans, or Study sequencing, read [references/research-design.md](references/research-design.md).
-- For outlines, chapter drafting, revision, reporting results, citations, or word allocation, read [references/writing-guide.md](references/writing-guide.md).
-- Read both when the request spans research design and manuscript writing.
-- For Japanese manuscript structure, prose, RQ/hypothesis presentation, survey summaries, figures/tables, and discussions, follow the senior-thesis conventions in writing-guide sections 2-7. Adapt presentation without copying unsupported conclusions or replacing the settled study design.
-- For prior-research citations, follow the senior-thesis author–year convention in the writing guide, section 8. Use the local senior theses as formatting references; verify cited claims and bibliographic details against the original sources.
+- テーマ、研究課題、仮説、変数、刺激、質問票、調査手順、分析を扱うときは、[研究設計ガイド](references/research-design.md)を読む。
+- 章立て、本文執筆、推敲、結果報告、引用を扱うときは、[論文執筆ガイド](references/writing-guide.md)を読む。
+- 両方を扱う依頼では両資料を読む。必要な先輩論文と確認箇所は各ガイドを参照する。
 
-## Establish the research state
+## 最初に研究の現状を把握する
 
-Before proposing new work, inspect the user's existing notes, datasets, questionnaires, stimuli, and drafts. State which stage is being handled: topic, theory, design, data collection, analysis, or writing. Preserve settled choices unless the user asks to revisit them or they create a concrete validity problem.
+既存の研究計画、文献メモ、質問票、刺激、データ、本文草案を確認し、現在の作業が「テーマ検討・理論整理・設計・収集・分析・執筆」のどこかを把握する。確定済みのテーマや設計は尊重し、変更が必要な場合は具体的な理由を示す。
 
-Express the study in one compact model:
+研究の中心を「広告表現の操作 → 想定する心理的反応 → 主たる成果指標」として整理する。この矢印は検証前の想定であり、観測された関連だけで因果関係が成立したとは書かない。比較条件、対象者、商材、接触場面、分析単位を明確にする。効果が変わる条件や個人差は、研究課題を説明するために必要な場合に加える。
 
-`advertising manipulation -> proposed psychological mechanism -> primary consumer outcome`
+## 本プロジェクトの基本設計
 
-Add a moderator or boundary condition only when theory needs it. Identify the comparison condition, target population, product/context, and unit of analysis. If these cannot yet be fixed, offer a small set of materially different options rather than pretending the design is final.
+別の妥当な設計が確定していなければ、次を基本案とする。
 
-## Default two-study architecture
+1. **研究1：広告条件の比較。** 一つの広告要素を操作し、原則として各回答者に一条件を提示する。主たる成果指標は一つに絞り、同じ概念を測る2〜3項目を基本とする。操作確認と必要な刺激品質の確認は分ける。研究2の項目生成に使う場合は自由記述を加える。
+2. **研究2：印象の構造と成果指標との関連。** 自由記述やインタビューから印象項目の候補を作り、15〜20項目程度に整理する。印象項目だけを探索的因子分析に投入し、因子の解釈と信頼性を確認したうえで、別に測った主たる成果指標との関連を回帰分析で検討する。
 
-Unless the user has settled another defensible design, use this local thesis pattern:
+これは先輩の複数の卒論を参考にした本プロジェクトの基本案であり、全論文に共通する規則ではない。研究1の成果指標を研究2の因子分析へ混ぜない。同じ標本による因子抽出と回帰分析は探索的分析として扱う。研究1で条件差が確認できなければ、研究2を「確認済みの効果の原因解明」と表現しない。
 
-1. **Study 1: simple effect comparison.** Manipulate one advertising element, show each respondent one condition, and compare one primary consumer outcome. Keep the main outcome to 2-3 coherent items, place manipulation and essential stimulus-quality checks separately, and optionally collect one free response for Study 2 item generation. Do not add a moderator, multiple mediators, or several secondary outcomes by default.
-2. **Study 2: psychological factor discovery.** Use Study 1 free responses and/or interviews to create an initial item pool, consolidate it to 15-20 non-duplicative impression items, administer those items with the same primary outcome, run exploratory factor analysis on the impression items only, check reliability, and regress the primary outcome on the extracted factors.
+調査費用が限られる場合は、短い研究1を学内等で募集し、因子分析を行う研究2に有料調査の予算を配分する案を検討する。ただし、実際の募集可能性、対象者、予算を確認し、安価な募集だけを優先して対象集団を変えない。
 
-Keep the Study 1 outcome items outside the Study 2 factor analysis. Treat Study 2 factor discovery and same-sample regression as exploratory. If Study 1 has no condition effect, describe Study 2 as an exploration of impression structure and outcome associations, not as an explanation of an established effect.
+## 主張に先立って根拠を確認する
 
-When one paid survey budget must support both studies, prefer free or institutional recruitment for the short Study 1 and reserve the paid panel for Study 2, where factor analysis needs a larger stable sample. Confirm the actual sample, platform, and budget rather than assuming this allocation always applies.
+- 背景、研究上の不足、仮説、尺度は原著論文や確認可能な資料に基づける。先輩の卒論は構成と手順の手本とし、そこに引用された文献は実際に使う段階で原典を確認する。
+- 既存研究の知見、本研究の予測、実際の分析結果を区別する。文献、質問項目の出典、回答者数、係数、有意差、発言を作らない。
+- 原典未確認や未実施の箇所は、作業稿で「原典未確認」「調査未実施」などと明示する。新規性を断定する場合は、その主張に必要な文献調査を行う。
 
-## Build evidence before claims
+## 設計と分析を研究課題に合わせる
 
-- Ground the research gap and hypotheses in primary literature or sources supplied by the user. Search current literature when the task requires facts, scales, or novelty claims that may have changed.
-- Separate what prior research establishes, what the current thesis predicts, and what the data show.
-- Never invent citations, scale items, sample details, coefficients, significance, or results. Mark placeholders explicitly in drafts.
-- Treat novelty as a literature-backed claim, not merely a new combination of buzzwords.
+研究1では操作対象以外の商材、情報量、レイアウト、品質などをそろえる。研究2では印象項目の生成、整理、因子抽出、命名、信頼性確認、成果指標との関連分析をつなげる。因子分析は現在の計画の基本段階として保持し、標本や項目が不足する場合は補う方法を提案する。既存尺度の利用や別設計が確定している場合は、その目的に合った測定構造の確認を行い、形だけの因子分析を追加しない。
 
-## Design studies proportionally
+媒介分析や研究3は、理論、測定順序、代替説明の検討などに具体的な必要がある場合に加える。調査数を増やすこと自体を目的にしない。生成した画像・音声等を使う場合は、使用ツール、作成・編集手順、統制内容を方法に記録する。
 
-- Use Study 1 to test the focal causal contrast with stimuli that differ only on the intended advertising element. Prefer a two-condition between-subject comparison unless the theory requires more conditions.
-- Use Study 2 to identify and test the psychological factors associated with the focal expression. The default sequence is qualitative item generation, reduction to 15-20 impression items, exploratory factor analysis, factor interpretation and reliability checks, then regression using the extracted factors.
-- Include a factor-analysis stage in the research plan. When impression items are newly generated, use exploratory factor analysis. When established scales are used, verify their factor structure with confirmatory factor analysis when feasible, or with a clearly labeled exploratory structure check when CFA is not feasible. If the available sample or items cannot support factor analysis, flag this as a design problem and propose a remedy rather than silently omitting the analysis.
-- Do not use mediation as the default Study 2 analysis. Add it only when the temporal order, measurement structure, and theory justify an indirect-effect claim.
-- Add Study 3 or an extra verification only when it resolves a real question: a boundary condition, rival explanation, mediation chain, robustness check, failed manipulation, or stimulus confound. More studies are not inherently better.
-- Pretest manipulations and obvious confounds before the main survey. Plan sample size, exclusions, primary outcomes, and analysis before collecting data whenever possible.
-- Prefer validated multi-item measures. Translate or adapt scales transparently and preserve the original construct meaning.
+因子数、抽出・回転方法、項目除外、負荷量、因子名、信頼性、得点化方法を報告してから回帰分析を示す。条件比較では記述統計、効果量、不確実性を示す。予測と逆方向の結果を仮説支持としない。事前に定めた検証と結果を見て追加した分析を分ける。
 
-## Protect internal validity
+## 成果物を依頼に合わせる
 
-Hold non-focal features constant across stimuli, including brand, product, layout, duration, volume, speaker characteristics, information amount, and production quality as applicable. When exact matching is impossible, pretest the mismatch and model it honestly.
-
-For AI-generated voices, images, copy, music, or people, record the tool, relevant settings, generation/editing procedure, and what was held constant. Pretest realism, naturalness, intelligibility, valence, and arousal when they could explain the effect. Do not conceal synthetic media in the method section.
-
-## Match analysis to the design
-
-For Study 2, report factorability checks, the factor-retention basis, extraction and rotation methods, item-removal criteria, the final loading table, factor names, and reliability before testing how the factors relate to the outcome. Use the simplest subsequent analysis that answers the stated hypothesis. Test interactions for factorial hypotheses rather than comparing isolated significance levels. Report descriptive statistics, uncertainty, effect sizes, and exact hypothesis decisions. Use mediation only when the variable order and causal interpretation are defensible; otherwise describe an association model.
-
-Do not call a hypothesis supported when the predicted direction failed, even if another statistically significant result appeared. Distinguish confirmatory tests from exploratory follow-ups and label reused-sample analyses accordingly.
-
-## Produce a useful deliverable
-
-Deliver only what the user requested, such as a topic shortlist, theory matrix, preregistration-style plan, questionnaire, stimulus specification, analysis plan, chapter draft, or full manuscript. Keep an explicit list of unresolved decisions and evidence still needed. When editing a manuscript, preserve the user's voice while correcting unsupported claims and design-report mismatches. For this project, use the senior-thesis citation convention in the writing guide unless the user or institution explicitly specifies a different style; retain existing formatting only where it is consistent with that convention.
+依頼されたテーマ案、研究計画、質問票、刺激仕様、分析計画、章草案、完成稿を作成し、未確定事項と必要な根拠を簡潔に示す。先輩の章立て・引用・図表表記を参考にしつつ、大学・ゼミの指定とユーザーが決めた方針を優先する。研究計画書の依頼に完成論文全体を追加しない。

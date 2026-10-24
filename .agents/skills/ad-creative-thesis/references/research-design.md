@@ -1,161 +1,121 @@
-# Research Design for Advertising-Creative Theses
+# 研究設計ガイド
 
-Use this reference when selecting a topic or designing, analyzing, or reviewing empirical studies.
+テーマ選定、仮説、刺激、質問票、調査手順、分析計画を作るときに使用する。
 
-## 1. Design canvas
+## 1．研究の骨格
 
-Complete this before writing hypotheses.
+仮説を書く前に、次の対応関係を整理する。
 
-| Element | Question |
+| 要素 | 確認すること |
 |---|---|
-| Focal manipulation | What single advertising element changes? |
-| Comparator | What is the theoretically meaningful baseline? |
-| Mechanism | What perception or emotion should transmit the effect? |
-| Primary outcome | What one consumer response is the main endpoint? |
-| Boundary | When or for whom should the effect change? |
-| Context | Which product, platform, format, and exposure situation? |
-| Population | Who can realistically encounter and evaluate the ad? |
-| Confounds | What else might differ between conditions? |
+| 操作する広告表現 | どの要素を変えるのか |
+| 比較条件 | 何と比較すると研究上の問いに答えられるか |
+| 心理的反応 | どの知覚・感情が関係すると考えられるか |
+| 主たる成果指標 | 最も明らかにしたい消費者の反応は何か |
+| 効果が変わる条件 | 必要な場合、どの状況・個人差を扱うか |
+| 対象場面 | 商材、媒体、広告形式、接触状況は何か |
+| 対象者・分析単位 | 誰から回答を得て、何を一つの観測とするか |
+| 交絡の可能性 | 操作以外に条件間で変わるものはないか |
 
-Good focal manipulations include copy tone, disclosure, narrator identity, voice quality, music, visual direction, spokesperson type, account voice, targeting language, or ad-native versus user-like presentation. Avoid bundling multiple differences into one condition unless the treatment is deliberately holistic.
+操作対象には、コピーの語調、発信者、音声、音楽、人物の向き、キャラクターの振る舞い、投稿形式などがある。複数の特徴をまとめて変える場合は、広告全体の比較なのか、単一要素の効果を調べたいのかを明示する。
 
-Choose one primary outcome. Common outcomes include ad attitude, brand attitude, purchase intention, trust, perceived authenticity, sharing intention, continued-viewing intention, recall, or choice. Secondary outcomes should serve the theory rather than compensate for an unclear primary endpoint.
+主たる成果指標には広告態度、ブランド態度、購買意向、信頼、共有意向、視聴継続意向、想起、選択などがある。測りやすい指標を無制限に追加せず、研究課題に対応する一つを中心に置く。
 
-## 2. Study sequence
+## 2．研究1と研究2の組み立て
 
-### Default blueprint
+### 基本案
 
-Use the following structure unless the user has already fixed a different defensible design.
-
-| Stage | Main question | Default measurement | Default analysis |
+| 段階 | 目的 | 測定・資料 | 分析・整理 |
 |---|---|---|---|
-| Study 1 | Does the focal expression change the primary outcome? | One manipulated element, one stimulus per respondent, one 2-3 item primary outcome, essential checks, optional free response | t test or equivalent regression |
-| Study 2 item generation | What impressions do viewers actually report? | Study 1 free responses and/or depth interviews; initial pool of about 25-30 statements reduced to 15-20 | Qualitative consolidation and content review |
-| Study 2 factor discovery | What psychological factors organize those impressions? | The 15-20 impression items plus the primary outcome measured separately | EFA on impression items only, reliability, then regression predicting the outcome |
+| 研究1 | 広告条件による反応の差を調べる | 一つの操作、主たる成果指標、操作確認、必要に応じ自由記述 | 平均差の検定または対応する回帰分析 |
+| 研究2の項目生成 | 受け手が実際に感じる印象を集める | 自由記述、インタビュー、必要な既存研究 | 意味の重複と概念の範囲を確認して質問項目へ整理 |
+| 研究2の因子分析 | 印象のまとまりを調べる | 原則15〜20の印象項目と、別に測る成果指標 | 探索的因子分析、信頼性確認、回帰分析 |
 
-Do not place the primary outcome items inside the Study 2 factor analysis. Do not add a moderator, multiple mediators, or multiple competing outcomes to Study 1 unless the theory or user explicitly requires them.
+### 研究1：条件比較
 
-### Study 1: establish the effect
+二条件の参加者間比較を基本案とする。各回答者が複数の条件を見る場合は、比較意識、提示順序、前の刺激の影響を考慮する。三条件以上や二要因の実験は、理論上の比較や交互作用を調べる必要がある場合に用いる。
 
-Use a between-subject experiment by default when repeated exposure would reveal the manipulation or create demand effects. Use within-subject designs only when carryover and comparison effects are acceptable.
+主たる成果指標は同一概念を測る2〜3項目を基本とし、既存尺度の出典と適用可能性を確認する。操作確認は成果指標と分け、測定順序が回答を誘導しないようにする。操作が伝わったことと、成果指標への効果があったことは別に判断する。
 
-Typical structures:
+自由記述は研究2の項目生成に使う場合に設ける。複数の媒介変数、個人差、成果指標、統制変数を、入手できるという理由だけで追加しない。
 
-- Two conditions: focal expression versus credible baseline.
-- Three conditions: focal expression, low-intensity alternative, and ordinary control.
-- Factorial design: two theoretically meaningful factors when the hypothesis concerns fit or interaction.
+### 研究2：項目生成から関連分析へ
 
-The local default is a two-condition comparison. Measure one primary outcome with 2-3 coherent items. Measure the manipulation check and only the stimulus-quality properties needed to rule out obvious confounds after the outcome. Add one free-response prompt when it will supply Study 2 item-generation material. A successful manipulation check does not prove the outcome hypothesis.
+1. 研究1の自由記述やインタビューから、広告に対する印象と反応理由を集める。実施していない聞き取りを行ったことにしない。
+2. 初期候補は25〜30項目程度を目安に広く作り、意味の重複を整理して15〜20項目程度へ絞る。数合わせで重要な内容を削らない。文献由来の項目を加えた場合は出典と追加理由を記録する。
+3. 一項目で一つの内容を尋ね、誘導的な表現、二重質問、理解しにくい否定、肯定・否定だけを入れ替えた重複を見直す。必要に応じて指導教員や協力者に意味の伝わり方を確認する。
+4. 印象項目と主たる成果指標を区別して測定する。回答尺度の段階数と両端の表現を示す。先輩には7段階の例があるが、使用する尺度に合わせて選ぶ。
+5. 因子分析には印象項目だけを投入する。成果指標、操作確認、注意確認、属性を混ぜない。
+6. 残った項目の共通する意味から因子名を付け、信頼性と得点化方法を確認する。
+7. 因子得点または根拠を示した尺度平均を説明変数とし、主たる成果指標との関連を回帰分析する。
+8. 同じ標本で因子を探索し、関連を検討した場合は全体を探索的分析とする。独立標本で検証する場合は探索段階と分けて記録する。
 
-Keep Study 1 short. Do not add familiarity moderators, serial mediators, purchase intention, sharing intention, and several platform-use controls merely because they are available. Add a construct only when it answers the stated RQ or protects interpretation.
+研究1で条件差が確認できなかった場合も、研究2で印象構造と成果指標との関連を検討できる。ただし「研究1で生じた効果の仕組みを証明した」とは書かない。因子分析と回帰分析だけで、心理的な因果過程が確定したとも扱わない。
 
-### Study 2: extract and test the psychological factors
+既存尺度を使う場合は、新しい文脈でも想定した構造が成り立つかを確認する。確認的因子分析が実施可能か検討し、探索的な確認を行う場合はその性質を明示する。
 
-Study 2 should include factor analysis as a standard stage. Use the following sequence:
+### 追加検証
 
-1. Collect qualitative descriptions of why participants reacted to the focal advertising expression, using the Study 1 free response and/or depth interviews.
-2. Create an initial pool of roughly 25-30 statements, then consolidate it to 15-20 clear, non-duplicative impression items. Add literature-derived items only when theory requires coverage missing from the qualitative data.
-3. Review the items for one idea per statement, readable wording, content coverage, and unnecessary positive-negative duplicates. Use a supervisor, peer review, or cognitive interviews when feasible.
-4. Administer the 15-20 impression items with the same primary outcome to a sample suitable for factor analysis.
-5. Run exploratory factor analysis on the impression items only. Do not include the primary outcome, manipulation check, attention check, or demographic items in this EFA.
-6. Name the factors from the shared meaning of their retained items, then check internal consistency.
-7. Use factor scores or defensible scale means as predictors of the primary outcome in regression.
-8. Add mediation only if theory, measurement, and temporal ordering justify it; regression is the default.
+別商材への一般化、刺激の交絡、操作失敗、代替説明、理論上の媒介過程など、残った問いがある場合に設ける。同じデータを別の方法で分析しただけなら、独立した研究ではなく追加分析とする。予算・期間・回答負担に見合う設計にする。
 
-Study 2 may also add a boundary condition, replication, or corrected stimulus, but these should not replace the factor-analysis stage. When established scales are used, verify the expected measurement structure with CFA when feasible. If CFA is outside the available method or sample, conduct and label an exploratory factor-structure check rather than assuming the scale behaves identically in the new context.
+## 3．刺激作成と予備調査
 
-Avoid treating same-sample factor discovery and outcome regression as strong independent confirmation. Prefer a split sample or a second sample when feasible. When this is not feasible, report the entire sequence as exploratory and reserve stronger confirmation for Study 3 or future research.
+操作と関係のない要素は、該当する範囲でそろえる。
 
-If Study 1 does not show a condition effect, do not claim that Study 2 discovered the mechanism behind an effect. Report Study 2 as an exploratory analysis of impression structure and associations with the outcome.
+- ブランド、商品、価格、訴求内容、情報量、行動の呼びかけ。
+- 配置、書体、色、画像、人物、提示時間、提示順序。
+- 音声の話者、速さ、音量、台本、録音品質、背景音。
+- 投稿者の紹介、投稿履歴、フォロワー数、反応数。
 
-### Study 3 or additional verification
+予備調査では、操作の認識、自然さ、現実らしさ、理解しやすさ、情報量、感情価、面白さ、信頼性などから、解釈を脅かす点を選んで確認する。目的の成果指標が都合よく高くなる刺激を事後的に選ばず、選定基準を先に定める。
 
-Add one only if it answers a remaining theoretical question. Suitable roles include:
+生成画像・音声・文章を使う場合は、ツール名、関連する設定、生成・編集手順、条件間で統制した要素を残す。完全にそろえられない部分は、その影響を検討して方法と限界に記す。
 
-- testing a mediator suggested but not established in Study 2;
-- ruling out an alternative explanation;
-- testing generalization across a second product or format;
-- demonstrating that an unexpected null was caused by a correctable design issue;
-- validating a serial or moderated mechanism with a new sample.
+## 4．分析方法を選ぶ
 
-Do not rename opportunistic analyses as a new study. A same-sample follow-up is an additional or exploratory analysis unless it involved a distinct manipulation or data collection.
-
-## 3. Stimulus and pretest checklist
-
-Keep constant where relevant:
-
-- brand familiarity and prior attitude;
-- product, price, claim, information amount, and call to action;
-- layout, typography, color, image, model, duration, and exposure order;
-- voice speaker, pace, loudness, script, recording quality, and background sound;
-- account history, follower count, engagement, posting frequency, and profile details.
-
-Pretest only properties that threaten interpretation. Depending on the study, assess:
-
-- manipulation recognition and perceived difference;
-- realism and naturalness;
-- comprehensibility and information amount;
-- valence, arousal, humor, attractiveness, credibility, or familiarity;
-- fit between image, copy, music, voice, platform, and product.
-
-Select stimuli using the predeclared criterion; do not choose the version that happens to produce the desired dependent variable.
-
-## 4. Measurement and analysis map
-
-| Design or question | Suitable primary analysis |
+| 設計・問い | 主な分析候補 |
 |---|---|
-| Two independent conditions | t test or equivalent regression |
-| Three or more conditions | ANOVA/regression with planned contrasts |
-| Two manipulated factors | Factorial ANOVA/regression with interaction |
-| Continuous moderator | Regression with interaction; avoid arbitrary median splits when possible |
-| Prespecified mediator | Bootstrap indirect-effect model with justified temporal order |
-| Newly generated impression items | EFA, followed by reliability and regression using extracted factors |
-| Established multi-item scale | CFA when feasible; otherwise a labeled exploratory structure check |
-| Repeated responses from one person | Repeated-measures or multilevel model |
+| 独立した二条件の比較 | 平均差の検定、対応する回帰分析 |
+| 三条件以上の比較 | 分散分析、事前に定めた対比、回帰分析 |
+| 二つの操作要因 | 交互作用を含む分散分析・回帰分析 |
+| 連続的な個人差による効果の違い | 交互作用を含む回帰分析 |
+| 同じ回答者による繰り返し評価 | 反復測定または階層性を扱う分析 |
+| 新しく作った印象項目 | 探索的因子分析、信頼性確認、関連分析 |
+| 理論に基づく媒介過程 | 測定順序と因果解釈を吟味した間接効果の分析 |
 
-Before collection, specify the primary hypothesis, outcome, exclusions, target sample, stopping rule, and analysis. Use power analysis based on the smallest meaningful effect when possible; cohort precedents are descriptive, not a substitute for power planning.
+一方の群で有意、他方の群で非有意というだけで群間の効果の違いを主張しない。連続変数を便宜的に二分しない。回帰分析で広告条件や繰り返し評価の構造を無視しない。
 
-### Factor-analysis procedure
+収集前に、主仮説、成果指標、除外基準、欠測の扱い、目標人数、募集終了基準、分析方法を定める。必要人数は検出したい効果、条件数、分析の複雑さから検討する。先輩の人数をそのまま必要人数の根拠にしない。
 
-- Ensure that every proposed factor has multiple interpretable items; do not design a one-item factor.
-- Plan sample size from both the 15-20 impression items and expected loading strength. As a planning heuristic, aim for at least 5-10 usable responses per item and preferably at least 150 observations, then judge adequacy using KMO, communalities, and loading stability rather than the ratio alone.
-- Check factorability with the correlation matrix, KMO, and Bartlett's test when available.
-- Use a common-factor extraction method such as maximum likelihood or principal-axis factoring. Do not substitute principal component analysis without explaining that it answers a different question.
-- Use an oblique rotation such as promax or oblimin because advertising perceptions are normally correlated.
-- Decide the factor count using parallel analysis, scree plot, theory, and interpretability. Do not rely only on the eigenvalue-greater-than-one rule.
-- Declare item-retention rules before the final model where possible. Review low loadings, low communalities, and problematic cross-loadings while preserving conceptual coverage.
-- Report each item and loading, removed items with reasons, factor correlations, variance information when appropriate, and reliability such as omega or alpha.
-- Name factors from their retained items, not from the result the researcher hoped to obtain.
-- In the outcome regression, check multicollinearity and report standardized effects, model fit, uncertainty, and the exact hypothesis decision for every factor.
+### 因子分析で確認・報告すること
 
-Report group sizes, missing data, exclusions, reliability, descriptive statistics, effect sizes, confidence intervals, and exact p-values where appropriate. Interpret null results as insufficient evidence for the predicted effect, not proof of equality unless the design supports an equivalence test.
+- 各因子を複数の解釈可能な項目で捉えられる設計にする。
+- 標本数は項目数だけで決めず、想定因子数、負荷量、共通性、欠測、解の安定性を踏まえて計画する。実施後に都合のよい基準へ変更しない。
+- 相関行列、標本の適切性を示す指標、球面性の検定などで、因子分析に適したデータかを確認する。検定の有意性だけで十分としない。
+- 最尤法や主因子法などの共通因子を抽出する方法を、データの性質に合わせて選ぶ。主成分分析と混同しない。
+- 心理的印象の相関を想定する場合は、プロマックス回転などの斜交回転を検討する。
+- 因子数は平行分析、スクリープロット、理論、解釈可能性を合わせて判断する。固有値が1を超えたことだけで自動決定しない。
+- 低い負荷量、低い共通性、複数因子への負荷を確認し、削除理由と再分析の経緯を残す。負荷量の基準だけで内容の妥当性を失わないようにする。
+- 最終項目、負荷量、因子間相関、因子名、信頼性係数、得点化方法を示す。信頼性係数が基準値を超えたことだけで妥当性まで保証されたとしない。
+- 回帰分析では多重共線性、係数、不確実性、モデルの説明力を確認する。因子名を期待した結論に合わせて付けない。
 
-## 5. Patterns from prior advertising-creative theses
+条件別人数、除外、欠測、平均、標準偏差、効果量、信頼区間、必要な検定結果を報告する。有意差がないことを同等性の証明としない。
 
-Useful precedent patterns include:
+## 5．先輩の卒論を参照する箇所
 
-- regulatory-focus ad content crossed with major/minor music, followed by emotion-mediated verification;
-- influencer versus celebrity status crossed with positive/negative reputation information, followed by parasocial mediation;
-- conventional official social posts versus character-as-real posts, followed by parasocial relationship analysis;
-- ordinary mass advertising versus explicit target language, followed by curiosity-mechanism analysis;
-- face direction crossed with challenge/trust copy, followed by processing-fluency testing;
-- ordinary versus relatable everyday-life advertising across affective/cognitive products;
-- medium-threat, low-threat, and empathy-inducing copy across low/high-involvement products.
+以下の資料はプロジェクト直下の `01_参考資料/学部20期卒論/` にある。頁は印刷された頁番号ではなく、PDFの先頭から数える。参照元がない環境では確認したふりをせず、このガイドの要約と原文確認を区別する。
 
-Use these as structural precedents, not as templates to copy. The new thesis still needs a distinct theoretical gap, manipulation, and context.
+| 論文 | 確認箇所 | 参考にする点 |
+|---|---|---|
+| 福田真珠「卒論　福田真珠.pdf」 | 2〜3頁、21〜25頁 | 条件比較から印象の探索へつなぐ構成。15項目の生成、因子分析、成果指標との回帰分析 |
+| 手塚亮汰「卒論　手塚亮汰.pdf」 | 2頁、22頁、39頁 | 一つの検証章に複数研究をまとめる構成。印象18項目と好奇心3項目の区別、最終17項目の負荷量表 |
+| 安達心愛「卒論　安達心愛.pdf」 | 2頁、24頁 | 研究を分けた章構成。印象12項目とパラソーシャル関係3項目の区別 |
+| 古賀舞「卒論 古賀舞.pdf」 | 2〜3頁、28〜29頁 | 項目生成、因子分析、因子の解釈、その後の検証の配置 |
 
-## 6. Review questions
+項目数を比較するときは、同じ参考資料フォルダの `20261019_先輩卒論_因子分析の質問項目数と全質問一覧.md` を索引にし、必要な論文の質問票と最終表を照合する。初期候補数、実際の提示数、分析投入数、最終採用数、一人が繰り返し回答する回数を区別する。本文と表の不一致は勝手に補正せず記録する。
 
-Before approving a design, answer:
+先輩の例は設計の選択肢を示す。15〜20項目、成果指標2〜3項目、二研究構成は本プロジェクトの基本案であり、全論文の共通要件ではない。先輩の分析方法や因果表現の弱点まで引き継がない。
 
-1. Can a reader state the causal contrast in one sentence?
-2. Does each hypothesis follow from named theory and cited evidence?
-3. Could a non-focal stimulus difference explain the predicted effect?
-4. Is the primary outcome identifiable before seeing results?
-5. Does Study 1 remain a simple test of one focal contrast and one primary outcome?
-6. Were the Study 2 impression items generated from qualitative evidence and reduced to roughly 15-20 without collapsing content coverage?
-7. Is the primary outcome kept outside the Study 2 EFA?
-8. Does Study 2 include a defensible factor-analysis plan and enough multi-item data to execute it?
-9. Are factor count, rotation, item removal, naming, and reliability reported transparently?
-10. Is the regression following factor discovery labeled exploratory when it uses the same sample?
-11. Would the conclusion remain accurate if Study 1 is null?
+## 6．設計の最終確認
+
+比較の意味、仮説の根拠、刺激の交絡、成果指標、回答負担、必要標本、印象項目と成果指標の分離、因子分析から回帰分析への対応を確認する。研究1が非有意でも研究2の目的を正しく説明できるかを見直す。未解決事項には、必要な資料・判断と研究への影響を添える。
