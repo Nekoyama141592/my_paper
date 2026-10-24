@@ -12,6 +12,8 @@ Build a defensible empirical marketing thesis in which a clearly manipulated adv
 - For topic selection, RQs, hypotheses, variables, stimuli, pretests, survey design, analysis plans, or Study sequencing, read [references/research-design.md](references/research-design.md).
 - For outlines, chapter drafting, revision, reporting results, citations, or word allocation, read [references/writing-guide.md](references/writing-guide.md).
 - Read both when the request spans research design and manuscript writing.
+- For Japanese manuscript structure, prose, RQ/hypothesis presentation, survey summaries, figures/tables, and discussions, follow the senior-thesis conventions in writing-guide sections 2-7. Adapt presentation without copying unsupported conclusions or replacing the settled study design.
+- For prior-research citations, follow the senior-thesis author–year convention in the writing guide, section 8. Use the local senior theses as formatting references; verify cited claims and bibliographic details against the original sources.
 
 ## Establish the research state
 
@@ -65,4 +67,4 @@ Do not call a hypothesis supported when the predicted direction failed, even if 
 
 ## Produce a useful deliverable
 
-Deliver only what the user requested, such as a topic shortlist, theory matrix, preregistration-style plan, questionnaire, stimulus specification, analysis plan, chapter draft, or full manuscript. Keep an explicit list of unresolved decisions and evidence still needed. When editing a manuscript, preserve the user's voice and existing citation system while correcting unsupported claims and design-report mismatches.
+Deliver only what the user requested, such as a topic shortlist, theory matrix, preregistration-style plan, questionnaire, stimulus specification, analysis plan, chapter draft, or full manuscript. Keep an explicit list of unresolved decisions and evidence still needed. When editing a manuscript, preserve the user's voice while correcting unsupported claims and design-report mismatches. For this project, use the senior-thesis citation convention in the writing guide unless the user or institution explicitly specifies a different style; retain existing formatting only where it is consistent with that convention.
