@@ -1,0 +1,92 @@
+{
+  "mode": "built-in image_gen",
+  "design": "../DESIGN.md",
+  "base": "Create one finished Japanese academic presentation slide, exact landscape 16:9, preferably 1600x900 or 1920x1080. Follow POP Academic DESIGN.md strictly: white #FFFFFF background, deep navy #08245C large Japanese typography (Noto Sans JP style), cyan #08A9D6 accent lines, pale blue #F3F8FD and #DDF4FA flat rounded cards, dark teal #006B89 accent text. Large whitespace, 72px margins on 1600x900, 48px title, 32px body, 24px captions; flat, no gradients, no drop shadows. Restrained speech bubbles, friendly but scholarly. No top-right numbers, no watermark, no fake logos, no extra claims. Optional page number only bottom right as specified. All Japanese text must be exact, clear and readable, no extra text. This is a pre-data-collection research plan, never invent results, graphs, factor names or statistics.",
+  "slides": [
+    {
+      "n": 1,
+      "name": "表紙",
+      "layout": "Minimal title slide, large formal title on left in three lines, subtitle below. Right has the supplied existing cream paperbag mascot reference, with its identity, expression, color and pose preserved; do not add dialogue or decorations to mascot. Small research-plan label top left. Date bottom left.",
+      "text": "研究計画・中間発表\nマスコットの企業への\n不服従表現が\nブランド態度に及ぼす影響\n― ブランド・パーソナリティに着目して ―\n2026年11月18日",
+      "ref": true
+    },
+    {
+      "n": 2,
+      "name": "背景と着眼点",
+      "layout": "Title on top. Large central concept composition with two navy outline speech bubbles, labeled 企業 and マスコット, separated by a cyan connector. No new mascot drawing. Below one large highlighted research-focus line. Bottom caption.",
+      "text": "企業と異なる意思を示すマスコット\n企業：ブランドの意向を伝えてほしい\nマスコット：自分の意思で選びたい\n着眼点：その振る舞いは、ブランドの評価にどう結びつくか\n本研究では、明示的な指示への「不服従」に焦点を絞る\n概念図\n02"
+    },
+    {
+      "n": 3,
+      "name": "定義とRQ1",
+      "layout": "Title top. Large round-corner pale blue definition bubble in upper-middle. Main research question below in very large type, two lines. Bottom short evaluation-target note.",
+      "text": "不服従表現の定義と研究課題\n企業から明示された指示に\n意図的に従わない様子を描く広告表現\nRQ1\n不服従表現の効果は、\nブランド像によって異なるか\n評価対象：ブランド「ポッケ」への全体的な好意的・非好意的評価\n03"
+    },
+    {
+      "n": 4,
+      "name": "先行研究と位置づけ",
+      "layout": "Two equal width flat pale-blue cards with large short labels, source citations below each. Bottom full-width cyan-tinted conclusion band. No decorative illustrations. Keep the text readable and spacious.",
+      "text": "先行研究と本研究の位置づけ\n広告キャラクター\n信頼や性格の知覚が、\nブランド評価と結びつく\nGarretson & Niedrich（2004）\nFolse et al.（2012）\nブランド像と不一致\n感覚的な不一致への評価は、\nブランド像によって異なり得る\nSundar & Noseworthy（2016）\n企業への不服従にも同じ関係が成り立つかは、本研究で検証する\n04"
+    },
+    {
+      "n": 5,
+      "name": "仮説と問い",
+      "layout": "Two equal weight cards side by side. Left header 仮説1-1 and stimulus brand description, right RQ1-2 with sincerity description. Equal fill, equal color, no upward/downward arrows or contrasting good/bad colors. Bottom band about interaction.",
+      "text": "刺激性では正の予測、誠実性では方向を問う\n仮説1-1｜刺激性ブランド\n大胆さ・独創性・意外性\n不服従広告の方が、従順広告より\nブランド態度は高いと予測する\nRQ1-2｜誠実性ブランド\n正直さ・飾らなさ・温かさ\n不服従広告と従順広告の間に、\nどのような差が生じるか\nブランド像による効果差は、交互作用で検討する\nブランド像の枠組み：Aaker（1997）\n05"
+    },
+    {
+      "n": 6,
+      "name": "Study1の4条件",
+      "layout": "Large readable 3x3 table matrix occupies main slide. Top header row has ブランド像, 従順, 不服従. Left column row labels 刺激性 and 誠実性. Four data cells clearly separate group labels from copy labels. Equal weight neutral blue styling. Bottom band.",
+      "text": "Study1：ブランド像 × 振る舞いの4条件\nブランド像｜従順｜不服従\n刺激性｜A群：コピーA指定 → A採用｜B群：コピーB指定 → A採用\n誠実性｜C群：コピーA指定 → A採用｜D群：コピーB指定 → A採用\n参加者間計画：各参加者に提示するのは1条件\n完成コピーは、全条件でコピーAを採用する\n06"
+    },
+    {
+      "n": 7,
+      "name": "刺激文案の比較",
+      "layout": "Two equal columns with headers, company instructions as simple labels and mascot words inside large identical navy-outlined speech bubbles. This is text-only stimulus script, not original advertising artwork. NO mascot, no fake ad image. Bottom common-copy band, then concise caveat.",
+      "text": "刺激文案：指示と応答を比較する\n従順｜コピーA指定 → A採用\n「指示はわかったよ。\nぼくもそのコピーがいいと思う。\nこれを使うね。」\n不服従｜コピーB指定 → A採用\n「会社の指示はわかった。\nでも、そのコピーは使わない。\nぼくは、こっちでいくね。」\n完成見出しは共通：「今日のおやつに、ポッケ。」\n指定コピー・拒否・自己主張の違いも残る\n07"
+    },
+    {
+      "n": 8,
+      "name": "Study1の手続き",
+      "layout": "Horizontal five-step process with each short step readable; use simple cyan connectors. Below show assignment mapping on two rows, then bottom full-width caution band. No invented participant count.",
+      "text": "Study1の手続きと割付\n同意・紹介 → 誕生月 → ブランド紹介・広告 → 態度・自由記述 → 操作チェック\nA群：1・5・9月　　B群：2・6・10月\nC群：3・7・11月　 D群：4・8・12月\n誕生月による便宜的な割付\n厳密な無作為割付ではない。条件別人数の偏りを確認する\n標本数・募集方法は実査前に確定する\n08"
+    },
+    {
+      "n": 9,
+      "name": "測定とプレ調査",
+      "layout": "Two equal columns. Left three semantic differential item pairs as text with a simple 7-step measurement line, no plotted data. Right pretest points spacious. Bottom source and adaptation note.",
+      "text": "ブランド態度の測定とプレ調査\nブランド態度：3項目・7段階\n悪い ― 良い\n好ましくない ― 好ましい\n好きになれない ― 好きになれる\nプレ調査で確認すること\n意図したブランド像が伝わるか\n指示と同意・拒否を理解できるか\n読みやすさ・自然さ・評価対象\nSpears & Singh（2004）をもとに改変した日本語短縮案\nプレ調査は未実施。採否基準と尺度の理解を実査前に確認する\n09"
+    },
+    {
+      "n": 10,
+      "name": "Study1の分析計画",
+      "layout": "Three wide horizontal rows labeled interaction, hypothesis and research question with corresponding differences. Bottom single emphasized band. No fake result chart or data plot.",
+      "text": "Study1：交互作用と2つの計画比較\n交互作用　（B群 − A群）−（D群 − C群）\nブランド像による効果差\n仮説1-1　B群 − A群\n刺激性ブランドでの不服従と従順の差\nRQ1-2　D群 − C群\n誠実性ブランドでの不服従と従順の差\n3検定はすべて両側。Holm法で調整する\n条件差・効果量・95％信頼区間を報告する予定\n10"
+    },
+    {
+      "n": 11,
+      "name": "Study2への接続",
+      "layout": "Large central pale-blue question bubble for RQ2, lower two concise aligned text blocks comparing Study1 versus Study2. Ample whitespace. Bottom caveat band.",
+      "text": "Study2：印象の構造とブランド態度との関連\nRQ2\n刺激性ブランドの不服従広告から受ける印象は、\nどのような構造を持ち、\nブランド態度とどのように関連するか\nStudy1：広告条件による態度の差を検討\nStudy2：印象の構造と態度との関連を探索\nStudy1で条件差が確認されなかった場合にも、RQ2を検討する\n11"
+    },
+    {
+      "n": 12,
+      "name": "Study2の調査計画",
+      "layout": "Top brief condition and sampling plan; center large 22 on left and clear additive breakdown of 3+18+1 on right in three equal blocks, highlight 18 only with outline for analysis target without implying results. Bottom note.",
+      "text": "Study2：1条件・有効回答100人を予定\nSurveroid｜刺激性ブランド × 不服従広告\n測定22項目\nブランド態度 3項目 ＋ 印象 18項目 ＋ 操作チェック 1項目\n因子分析に投入するのは、印象18項目のみ\n同意・属性・品質確認は22項目に含めない\n有効回答100人は予定。調査結果は未取得\n12"
+    },
+    {
+      "n": 13,
+      "name": "Study2の分析計画",
+      "layout": "One clear four-stage left-to-right or gently stepped analysis flow with short labels, navy text and cyan connecting arrows. Below two lines of methodological limitations. No factor graphic or fake graph.",
+      "text": "Study2：印象の構造を整理し、態度との関連を調べる\n印象18項目 → 探索的因子分析 → 解釈・信頼性確認 → 回帰分析\n自由記述・理解確認をもとに、印象項目を確定する\n因子数は平行分析・スクリープロット・解釈可能性から判断する\n候補の6観点を、事前に6因子と決めない\n同時点・同じ標本での探索的分析\n因果的な媒介過程の証明とはしない\n13"
+    },
+    {
+      "n": 14,
+      "name": "意義と次の作業",
+      "layout": "Final slide, large takeaway at top-middle, then two columns for interpretation scope and next actions, each maximum three short lines. Large light cyan footer with research status. No thank-you filler, no mascots.",
+      "text": "得たい知見と、実査前に確定すること\nブランド像とマスコットの振る舞いを組み合わせて検討する\n解釈の範囲\n広告接触直後のブランド態度を扱う\n指定コピー・自己主張の差も残る\nStudy2は印象と態度の関連を探索する\n次の作業\nStudy1の必要標本数・募集方法の確定\nプレ調査と最終刺激・尺度の確認\n分析基準・実施時期・倫理手続きの確定\n現在は研究計画段階。仮説の支持・因子数・効果量は未取得\n14"
+    }
+  ]
+}
